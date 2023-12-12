@@ -3,7 +3,7 @@ import Header from "@components/Header";
 import Footer from "@components/Footer";
 
 export default function Home() {
-  const forms = Array.apply(null, { length: 30 }).map(Number.call, Number);
+  const forms = Array.apply(null, { length: 130 }).map(Number.call, Number);
 
   return (
     <div className="container">
