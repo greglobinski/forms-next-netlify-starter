@@ -27,7 +27,7 @@ export default function Home() {
             data-netlify="true"
             style={{ display: `flex`, flexGap: `1rem` }}
           >
-            {idx === 125 && (
+            {idx % 2 === 0 && (
               <input
                 type="hidden"
                 name="subject"
