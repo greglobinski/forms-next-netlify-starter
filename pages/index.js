@@ -27,6 +27,14 @@ export default function Home() {
             data-netlify="true"
             style={{ display: `flex`, flexGap: `1rem` }}
           >
+            {idx === 125 && (
+              <input
+                type="hidden"
+                name="subject"
+                value="Sales inquiry from mysitename.netlify.app"
+              />
+            )}
+
             <input
               name="name"
               style={{ fontSize: `1rem`, padding: `0.5rem` }}
