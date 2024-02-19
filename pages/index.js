@@ -36,12 +36,12 @@ export default function Home() {
         </p>
 
         {forms.map((item, idx) => (
-          <form method="POST" data-netlify="true" onSubmit={handleSubmit}>
-            <input
-              type="hidden"
-              name="form-name"
-              value={`NOWY-FORMULARZ-${idx + 1}`}
-            />
+          <form
+            method="POST"
+            data-netlify="true"
+            onSubmit={handleSubmit}
+            name={`ANOWY-FORMULARZ-${idx + 1}`}
+          >
             <p>
               <label>
                 Your Name: <input type="text" name="name" />
