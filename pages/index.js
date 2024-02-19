@@ -39,6 +39,7 @@ export default function Home() {
           name={`A2CONTACT`}
           data-netlify="true"
           method="POST"
+          onSubmit={handleSubmit}
           // name="Pardot: Short Form Capabilities Brochure"
           data-netlify-honeypot="bot-field"
           className="styles_form_wrapper__AI73A"
@@ -62,24 +63,24 @@ export default function Home() {
                   </label>
                   <div className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-1v4ccyo">
                     <input
-                      aria-invalid="false"
-                      autocomplete="first_name"
-                      id="first_name"
+                      // aria-invalid="false"
+                      // autocomplete="first_name"
+                      // id="first_name"
                       name="first_name"
-                      placeholder=""
-                      required=""
-                      type="text"
-                      className="MuiInputBase-input MuiOutlinedInput-input css-1x5jdmq"
-                      value=""
+                      // placeholder=""
+                      // required=""
+                      // type="text"
+                      // className="MuiInputBase-input MuiOutlinedInput-input css-1x5jdmq"
+                      // value=""
                     />
-                    <fieldset
+                    {/* <fieldset
                       aria-hidden="true"
                       className="MuiOutlinedInput-notchedOutline css-igs3ac"
                     >
                       <legend className="css-yjsfm1">
                         <span>First Name</span>
                       </legend>
-                    </fieldset>
+                    </fieldset> */}
                   </div>
                 </div>
               </div>
@@ -101,24 +102,24 @@ export default function Home() {
                   </label>
                   <div className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-1v4ccyo">
                     <input
-                      aria-invalid="false"
-                      autocomplete="last_name"
-                      id="last_name"
+                      // aria-invalid="false"
+                      // autocomplete="last_name"
+                      // id="last_name"
                       name="last_name"
-                      placeholder=""
-                      required=""
-                      type="text"
-                      className="MuiInputBase-input MuiOutlinedInput-input css-1x5jdmq"
-                      value=""
+                      // placeholder=""
+                      // required=""
+                      // type="text"
+                      // className="MuiInputBase-input MuiOutlinedInput-input css-1x5jdmq"
+                      // value=""
                     />
-                    <fieldset
+                    {/* <fieldset
                       aria-hidden="true"
                       className="MuiOutlinedInput-notchedOutline css-igs3ac"
                     >
                       <legend className="css-yjsfm1">
                         <span>Last Name</span>
                       </legend>
-                    </fieldset>
+                    </fieldset> */}
                   </div>
                 </div>
               </div>
@@ -142,24 +143,24 @@ export default function Home() {
                   </label>
                   <div className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-1v4ccyo">
                     <input
-                      aria-invalid="false"
-                      autocomplete="email"
-                      id="email"
+                      // aria-invalid="false"
+                      // autocomplete="email"
+                      // id="email"
                       name="email"
-                      placeholder=""
-                      required=""
-                      type="email"
-                      className="MuiInputBase-input MuiOutlinedInput-input css-1x5jdmq"
-                      value=""
+                      // placeholder=""
+                      // required=""
+                      // type="email"
+                      // className="MuiInputBase-input MuiOutlinedInput-input css-1x5jdmq"
+                      // value=""
                     />
-                    <fieldset
+                    {/* <fieldset
                       aria-hidden="true"
                       className="MuiOutlinedInput-notchedOutline css-igs3ac"
                     >
                       <legend className="css-yjsfm1">
                         <span>Email</span>
                       </legend>
-                    </fieldset>
+                    </fieldset> */}
                   </div>
                 </div>
               </div>
