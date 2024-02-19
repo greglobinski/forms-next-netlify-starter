@@ -18,7 +18,7 @@ export default function Home() {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams(formData).toString(),
     })
-      .then(() => router.push("/success", { scroll: false }))
+      .then(() => alert(`Sent`))
       .catch((error) => alert(error));
   };
 
