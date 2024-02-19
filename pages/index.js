@@ -41,7 +41,7 @@ export default function Home() {
           method="POST"
           onSubmit={handleSubmit}
           // name="Pardot: Short Form Capabilities Brochure"
-          data-netlify-honeypot="bot-field"
+          // data-netlify-honeypot="bot-field"
           className="styles_form_wrapper__AI73A"
         >
           <input type="hidden" name="form-name" value="A2CONTACT" />
@@ -195,23 +195,6 @@ export default function Home() {
               </button>
             </div>
           </div>
-          <div
-          //</form> style="height: 0px; visibility: hidden;"
-          >
-            <label>
-              Don't fill this out if you are human
-              <input name="bot-field" id="bot-field" />
-            </label>
-          </div>
-          <input type="hidden" name="lt_utm_source" />
-          <input type="hidden" name="lt_utm_campaign" />
-          <input type="hidden" name="lt_utm_medium" />
-          <input type="hidden" name="lt_utm_keyword" />
-          <input type="hidden" name="lt_utm_content" />
-          <input type="hidden" name="lt_utm_adname" />
-          <input type="hidden" name="pathname" />
-          <input type="hidden" name="gaid" />
-          <input type="hidden" name="pardot-endpoint" />
         </form>
       </main>
 
