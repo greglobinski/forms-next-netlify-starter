@@ -46,8 +46,9 @@ export default function Home() {
             style={{ display: `flex`, flexDirection: `column`, gap: `1rem` }}
           >
             <TextField
-              id="name-field"
-              label="name"
+              id="name-field-id"
+              name="name-field"
+              label="Name label"
               variant="outlined"
               required={true}
             />
