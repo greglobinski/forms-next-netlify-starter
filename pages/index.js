@@ -63,6 +63,7 @@ export default function Home() {
                       // autocomplete="first_name"
                       // id="first_name"
                       name="first_name"
+                      type="text"
                       // placeholder=""
                       // required=""
                       // type="text"
@@ -102,6 +103,7 @@ export default function Home() {
                       // autocomplete="last_name"
                       // id="last_name"
                       name="last_name"
+                      type="text"
                       // placeholder=""
                       // required=""
                       // type="text"
@@ -143,6 +145,7 @@ export default function Home() {
                       // autocomplete="email"
                       // id="email"
                       name="email"
+                      type="text"
                       // placeholder=""
                       // required=""
                       // type="email"
@@ -163,24 +166,6 @@ export default function Home() {
             </div>
           </div>
           <div className="styles_field_row__r49xc">
-            <div className="styles_field_col__YW0rD">
-              <div className="styles_recaptcha__LLCos">
-                <div>
-                  <div>
-                    <div
-                    // style="width: 304px; height: 78px;"
-                    >
-                      <textarea
-                        id="g-recaptcha-response"
-                        name="g-recaptcha-response"
-                        className="g-recaptcha-response"
-                        // style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"
-                      ></textarea>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
             <div className="styles_field_col__YW0rD">
               <button
                 className="styles_button__VMIgL tyles_theme_default__xVJ2v styles_form_submit__UpEMC"
