@@ -6,7 +6,7 @@ export default function Home() {
   const forms = Array.apply(null, { length: 25 }).map(Number.call, Number);
 
   return (
-    <div className="container">
+    <div>
       <Head>
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
@@ -14,7 +14,7 @@ export default function Home() {
 
       <main style={{ display: `flex`, gap: `1rem` }}>
         <Header title="Welcome to my app!" />
-        <p className="description">
+        <p>
           Get started by editing <code>pages/index.js</code>
         </p>
 
