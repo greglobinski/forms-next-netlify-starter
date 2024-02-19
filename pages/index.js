@@ -4,7 +4,7 @@ import Footer from "@components/Footer";
 import { useRouter } from "next/navigation";
 
 export default function Home() {
-  const forms = Array.apply(null, { length: 5 }).map(Number.call, Number);
+  const forms = Array.apply(null, { length: 1 }).map(Number.call, Number);
   const router = useRouter();
 
   const handleSubmit = (event) => {
@@ -40,8 +40,9 @@ export default function Home() {
             method="POST"
             data-netlify="true"
             onSubmit={handleSubmit}
-            name={`ANOWY-FORMULARZ-${idx + 1}`}
+            name={`ACONTACT`}
           >
+            <input type="hidden" name="form-name" value="ACONTACT" />
             <p>
               <label>
                 Your Name: <input type="text" name="name" />
@@ -49,11 +50,7 @@ export default function Home() {
             </p>
             <p>
               <label>
-                Your Role:{" "}
-                <select name="role[]">
-                  <option value="leader">Leader</option>
-                  <option value="follower">Follower</option>
-                </select>
+                Your Email: <input type="text" name="email" />
               </label>
             </p>
             <p>
