@@ -41,7 +41,7 @@ export default function Home() {
           onSubmit={handleSubmit}
           name={`A_1_MUI`}
         >
-          <input type="hidden" name="form-name" value="A_7_CONTACT" />
+          <input type="hidden" name="form-name" value="A_1_MUI" />
           <div
             style={{ display: `flex`, flexDirection: `column`, gap: `1rem` }}
           >
