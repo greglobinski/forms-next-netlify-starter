@@ -23,6 +23,7 @@ export default function Home() {
             name={`a-brand-new-form-${idx + 1}`}
             method="POST"
             data-netlify="true"
+            action="/success"
           >
             <p>
               <label>
