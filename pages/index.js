@@ -50,8 +50,9 @@ export default function Home() {
               name="name-field"
               label="Name label"
               variant="outlined"
-              required={true}
+              //     required={true}
             />
+
             <Button type="submit" variant="contained">
               Text
             </Button>
