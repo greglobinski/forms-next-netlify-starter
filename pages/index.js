@@ -48,8 +48,7 @@ export default function Home() {
                   <label
                     className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-required MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-p0rm37"
                     data-shrink="false"
-                    for="first_name"
-                    id="first_name-label"
+                    for="first_name_oo"
                   >
                     First Name
                     <span
@@ -62,7 +61,7 @@ export default function Home() {
                       // aria-invalid="false"
                       // autocomplete="first_name"
                       // id="first_name"
-                      name="first_name"
+                      name="first_name_oo"
                       type="text"
                       // placeholder=""
                       // required=""
