@@ -39,23 +39,84 @@ export default function Home() {
           method="POST"
           data-netlify="true"
           onSubmit={handleSubmit}
-          name={`A_1_MUI`}
+          name={`A_8_CONTACT`}
         >
-          <input type="hidden" name="form-name" value="A_1_MUI" />
-          <div
-            style={{ display: `flex`, flexDirection: `column`, gap: `1rem` }}
-          >
-            <TextField
-              id="name-field-id"
-              name="name-field"
-              label="Name label"
-              variant="outlined"
-              //     required={true}
-            />
-
-            <Button type="submit" variant="contained">
-              Text
-            </Button>
+          <input type="hidden" name="form-name" value="A_8_CONTACT" />
+          <div className="styles_field_row__r49xc">
+            <div className="styles_field_col__YW0rD">
+              <div className="MuiFormControl-root MuiFormControl-fullWidth css-16ym3lh">
+                <div className="MuiFormControl-root MuiTextField-root css-i44wyl">
+                  <label
+                    className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-required MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-p0rm37"
+                    data-shrink="false"
+                    htmlFor="first_name_oo"
+                  >
+                    First Name *
+                    <span
+                      aria-hidden="true"
+                      className="MuiFormLabel-asterisk MuiInputLabel-asterisk css-sp68t1"
+                    ></span>
+                  </label>
+                  <div className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-1v4ccyo">
+                    <input name="first_name_oo" type="text" required={true} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="styles_field_col__YW0rD">
+              <div className="MuiFormControl-root MuiFormControl-fullWidth css-16ym3lh">
+                <div className="MuiFormControl-root MuiTextField-root css-i44wyl">
+                  <label
+                    className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-required MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-p0rm37"
+                    data-shrink="false"
+                    htmlFor="last_name"
+                    id="last_name-label"
+                  >
+                    Last Name
+                    <span
+                      aria-hidden="true"
+                      className="MuiFormLabel-asterisk MuiInputLabel-asterisk css-sp68t1"
+                    ></span>
+                  </label>
+                  <div className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-1v4ccyo">
+                    <input name="last_name" type="text" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="styles_field_row__r49xc">
+            <div className="styles_field_col__YW0rD">
+              <div className="MuiFormControl-root MuiFormControl-fullWidth css-16ym3lh">
+                <div className="MuiFormControl-root MuiTextField-root css-i44wyl">
+                  <label
+                    className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-required MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-p0rm37"
+                    data-shrink="false"
+                    htmlFor="email"
+                    id="email-label"
+                  >
+                    Email
+                    <span
+                      aria-hidden="true"
+                      className="MuiFormLabel-asterisk MuiInputLabel-asterisk css-sp68t1"
+                    ></span>
+                  </label>
+                  <div className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-1v4ccyo">
+                    <input name="email" type="text" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="styles_field_row__r49xc">
+            <div className="styles_field_col__YW0rD">
+              <button
+                className="styles_button__VMIgL tyles_theme_default__xVJ2v styles_form_submit__UpEMC"
+                type="submit"
+              >
+                Submit
+              </button>
+            </div>
           </div>
         </form>
       </main>
