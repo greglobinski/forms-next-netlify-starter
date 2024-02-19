@@ -45,7 +45,12 @@ export default function Home() {
             <input type="hidden" name="form-name" value="ACONTACT" />
             <p>
               <label>
-                Your Name: <input type="text" name="name" />
+                Your Name:{" "}
+                <input
+                  type="text"
+                  name="name"
+                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-required MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-p0rm37"
+                />
               </label>
             </p>
             <p>
