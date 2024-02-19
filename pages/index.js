@@ -19,7 +19,11 @@ export default function Home() {
         </p>
 
         {forms.map((item, idx) => (
-          <form name={`NEW-form-${idx + 1}`} method="POST" data-netlify="true">
+          <form
+            name={`a-brand-new-form-${idx + 1}`}
+            method="POST"
+            data-netlify="true"
+          >
             <p>
               <label>
                 Your Name: <input type="text" name="name" />
