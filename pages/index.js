@@ -1,9 +1,26 @@
 import Head from "next/head";
 import Header from "@components/Header";
 import Footer from "@components/Footer";
+import { useRouter } from "next/navigation";
 
 export default function Home() {
-  const forms = Array.apply(null, { length: 25 }).map(Number.call, Number);
+  const forms = Array.apply(null, { length: 5 }).map(Number.call, Number);
+  const router = useRouter();
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    const myForm = event.target;
+    const formData = new FormData(myForm);
+
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(formData).toString(),
+    })
+      .then(() => router.push("/success", { scroll: false }))
+      .catch((error) => alert(error));
+  };
 
   return (
     <div>
@@ -19,20 +36,15 @@ export default function Home() {
         </p>
 
         {forms.map((item, idx) => (
-          <form
-            name={`a-brand-new-form-${idx + 1}`}
-            method="POST"
-            data-netlify="true"
-            action="/success"
-          >
+          <form method="POST" data-netlify="true" onSubmit={handleSubmit}>
+            <input
+              type="hidden"
+              name="form-name"
+              value={`NOWY-FORMULARZ-${idx + 1}`}
+            />
             <p>
               <label>
                 Your Name: <input type="text" name="name" />
-              </label>
-            </p>
-            <p>
-              <label>
-                Your Email: <input type="email" name="email" />
               </label>
             </p>
             <p>
