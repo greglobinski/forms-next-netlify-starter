@@ -38,9 +38,9 @@ export default function Home() {
           method="POST"
           data-netlify="true"
           onSubmit={handleSubmit}
-          name={`A_6_CONTACT`}
+          name={`A_7_CONTACT`}
         >
-          <input type="hidden" name="form-name" value="A_6_CONTACT" />
+          <input type="hidden" name="form-name" value="A_7_CONTACT" />
           <div className="styles_field_row__r49xc">
             <div className="styles_field_col__YW0rD">
               <div className="MuiFormControl-root MuiFormControl-fullWidth css-16ym3lh">
