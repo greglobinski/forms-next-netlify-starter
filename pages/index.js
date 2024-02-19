@@ -48,7 +48,7 @@ export default function Home() {
             <TextField
               id="name-field-id"
               name="name-field"
-              label="Name label*"
+              label="Name label *"
               variant="outlined"
             />
 
